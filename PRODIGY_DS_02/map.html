@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7da8381fab766a5137c04b7cf3b6f5d7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7da8381fab766a5137c04b7cf3b6f5d7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7da8381fab766a5137c04b7cf3b6f5d7 = L.map(
+                "map_7da8381fab766a5137c04b7cf3b6f5d7",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_51e4aba16337031dce916ed0280a781e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+            var marker_390a963b468d577568a1c787f6e4a739 = L.marker(
+                [40.75237, -73.98769],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_c79d5e558ec5f2d59ede811169eb9b09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cea48390fa5b2ce79829ecc7325f5269 = $(`<div id="html_cea48390fa5b2ce79829ecc7325f5269" style="width: 100.0%; height: 100.0%;">Midtown Sleep 6 Central Convenience</div>`)[0];
+                popup_c79d5e558ec5f2d59ede811169eb9b09.setContent(html_cea48390fa5b2ce79829ecc7325f5269);
+            
+        
+
+        marker_390a963b468d577568a1c787f6e4a739.bindPopup(popup_c79d5e558ec5f2d59ede811169eb9b09)
+        ;
+
+        
+    
+    
+            var marker_71d39f883727249932023262aabf87a3 = L.marker(
+                [40.74353, -73.98364],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_a048529447be24b1bc735d9fc1acdfaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_928241a69b9c4acad9558cf0ba5e06c8 = $(`<div id="html_928241a69b9c4acad9558cf0ba5e06c8" style="width: 100.0%; height: 100.0%;">Flatiron Loft 3BR/1.5 Bath Best Location 30 days</div>`)[0];
+                popup_a048529447be24b1bc735d9fc1acdfaf.setContent(html_928241a69b9c4acad9558cf0ba5e06c8);
+            
+        
+
+        marker_71d39f883727249932023262aabf87a3.bindPopup(popup_a048529447be24b1bc735d9fc1acdfaf)
+        ;
+
+        
+    
+    
+            var marker_78124afc588a496b144c532960f81480 = L.marker(
+                [40.73734, -73.99327],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_1b3967306334d2b435157dbac73cd2ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9c89d12893ea2caca77c5cde3c87617 = $(`<div id="html_a9c89d12893ea2caca77c5cde3c87617" style="width: 100.0%; height: 100.0%;">Parisian Palace in Heart of Manhattan</div>`)[0];
+                popup_1b3967306334d2b435157dbac73cd2ec.setContent(html_a9c89d12893ea2caca77c5cde3c87617);
+            
+        
+
+        marker_78124afc588a496b144c532960f81480.bindPopup(popup_1b3967306334d2b435157dbac73cd2ec)
+        ;
+
+        
+    
+    
+            var marker_7f4636a0242e9d622ccbc8e7ac92ff5b = L.marker(
+                [40.74674, -74.00316],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_cabb5f5f24724a831cdfb68d08b7889f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f9c2da121b3e0f09b0076d5c140239 = $(`<div id="html_70f9c2da121b3e0f09b0076d5c140239" style="width: 100.0%; height: 100.0%;">Five-star luxury Apt in Chelsea !</div>`)[0];
+                popup_cabb5f5f24724a831cdfb68d08b7889f.setContent(html_70f9c2da121b3e0f09b0076d5c140239);
+            
+        
+
+        marker_7f4636a0242e9d622ccbc8e7ac92ff5b.bindPopup(popup_cabb5f5f24724a831cdfb68d08b7889f)
+        ;
+
+        
+    
+    
+            var marker_f1585908e0ab1709255bf317d3144431 = L.marker(
+                [40.76591, -73.97886],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_a2847ab6b5c78d7228a6d114f960747d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecffd3cf1a3274973fb91dcbb0eaea23 = $(`<div id="html_ecffd3cf1a3274973fb91dcbb0eaea23" style="width: 100.0%; height: 100.0%;">Luxurious 2bed/2.5bath with Central Park Views</div>`)[0];
+                popup_a2847ab6b5c78d7228a6d114f960747d.setContent(html_ecffd3cf1a3274973fb91dcbb0eaea23);
+            
+        
+
+        marker_f1585908e0ab1709255bf317d3144431.bindPopup(popup_a2847ab6b5c78d7228a6d114f960747d)
+        ;
+
+        
+    
+    
+            var marker_798c73413855cb1bbacdcdcf1b5c765c = L.marker(
+                [40.7367, -74.00105],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_ede6e1f2914af9235f9eac0f0631238a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ffe7e3cfe999d3fb18c3ed2e158042c = $(`<div id="html_7ffe7e3cfe999d3fb18c3ed2e158042c" style="width: 100.0%; height: 100.0%;">Your Private Duplex Mansion in the HEART of NYC!</div>`)[0];
+                popup_ede6e1f2914af9235f9eac0f0631238a.setContent(html_7ffe7e3cfe999d3fb18c3ed2e158042c);
+            
+        
+
+        marker_798c73413855cb1bbacdcdcf1b5c765c.bindPopup(popup_ede6e1f2914af9235f9eac0f0631238a)
+        ;
+
+        
+    
+    
+            var marker_fcab0e513eb09caddb21be3a8ae691bc = L.marker(
+                [40.77055, -73.98615],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_9640aa34c0548df80b33bf8986f5e057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fae9e144222aec5f44ef44336d850f4 = $(`<div id="html_7fae9e144222aec5f44ef44336d850f4" style="width: 100.0%; height: 100.0%;">27 FLR VIEWS!LINCOLN SQR-LUXURY 2BR MIDTOWN W 60TH</div>`)[0];
+                popup_9640aa34c0548df80b33bf8986f5e057.setContent(html_7fae9e144222aec5f44ef44336d850f4);
+            
+        
+
+        marker_fcab0e513eb09caddb21be3a8ae691bc.bindPopup(popup_9640aa34c0548df80b33bf8986f5e057)
+        ;
+
+        
+    
+    
+            var marker_80297d1b8daa3577ae59a0783f33ac09 = L.marker(
+                [40.72297, -73.98946],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_c02025e3a604e7dc366b560f5944ac78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8601d24fe7538dc634af622be8e7b44f = $(`<div id="html_8601d24fe7538dc634af622be8e7b44f" style="width: 100.0%; height: 100.0%;">SOMMwhere in NYC/ a unique, conscious artists loft</div>`)[0];
+                popup_c02025e3a604e7dc366b560f5944ac78.setContent(html_8601d24fe7538dc634af622be8e7b44f);
+            
+        
+
+        marker_80297d1b8daa3577ae59a0783f33ac09.bindPopup(popup_c02025e3a604e7dc366b560f5944ac78)
+        ;
+
+        
+    
+    
+            var marker_4217fce0f497d2332b4e9eab333c6892 = L.marker(
+                [40.74575, -74.01052],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_c0b080c3042f9de7b115219aacfd0eda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_468c82b19045ce5624c2658798dab6ee = $(`<div id="html_468c82b19045ce5624c2658798dab6ee" style="width: 100.0%; height: 100.0%;">CHELSEA CENTRAL LUXURY 2BATHS</div>`)[0];
+                popup_c0b080c3042f9de7b115219aacfd0eda.setContent(html_468c82b19045ce5624c2658798dab6ee);
+            
+        
+
+        marker_4217fce0f497d2332b4e9eab333c6892.bindPopup(popup_c0b080c3042f9de7b115219aacfd0eda)
+        ;
+
+        
+    
+    
+            var marker_e622bd2d5b371a800338bee094c9d0c4 = L.marker(
+                [40.71488, -74.00687],
+                {}
+            ).addTo(map_7da8381fab766a5137c04b7cf3b6f5d7);
+        
+    
+        var popup_59e84d4d2a67ee0f1f34e21ca5f850ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aac800315a1b465c525cdf0fb687c54c = $(`<div id="html_aac800315a1b465c525cdf0fb687c54c" style="width: 100.0%; height: 100.0%;">Bright + Mod Tribeca Studio w/ Indoor pool + Gym by Blueground</div>`)[0];
+                popup_59e84d4d2a67ee0f1f34e21ca5f850ba.setContent(html_aac800315a1b465c525cdf0fb687c54c);
+            
+        
+
+        marker_e622bd2d5b371a800338bee094c9d0c4.bindPopup(popup_59e84d4d2a67ee0f1f34e21ca5f850ba)
+        ;
+
+        
+    
+</script>
+</html>
